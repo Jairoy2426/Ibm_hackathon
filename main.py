@@ -22,7 +22,7 @@ st.caption("Chatbot that answers questions about UV detector catalog ")
 with st.sidebar:
     OPENAI_API_KEY = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/franconti/context_aware_chatbot)"
+    "[View the source code](https://github.com/Jairoy2426/Ibm_hackathon)"
 
 # Check for API key
 if not OPENAI_API_KEY:
