@@ -15,7 +15,7 @@ from pprint import pprint
 
 
 
-st.title("💬 Laboratory Company Chatbot")
+st.title("💬 Codex Chatbot")
 st.caption("Chatbot that answers questions about UV detector catalog ")
 
 # Sidebar for API key input
@@ -34,7 +34,7 @@ if not OPENAI_API_KEY:
 #os.environ['OPENAI_API_KEY'] = openai_api_key
 
 # Initialize the LangChain components
-llm = ChatOpenAI(openai_api_key= OPENAI_API_KEY, model_name="gpt-3.5-turbo")
+llm = ChatOpenAI(openai_api_key= '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', model_name="gpt-3.5-turbo")
 
 # Load and process the data
 loader = JSONLoader(
